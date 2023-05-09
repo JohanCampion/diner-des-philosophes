@@ -1,0 +1,17 @@
+
+.circle-container {
+  position: relative;
+  margin-left: 50%;
+  margin-top: 25%;
+}
+
+.circle-element {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
