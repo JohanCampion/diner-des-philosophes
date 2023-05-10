@@ -1,3 +1,4 @@
+<span *ngIf="philosophe?.state == 'affame'">{{philosophe?._tempsBeforeDie}} secondes</span>
 <div [ngClass]="philosophe?.state == 'mange' ? 'mange' : 'pense'">
 <span>{{philosophe?.nom}}</span>
 <span> {{philosophe?.state}}</span>
