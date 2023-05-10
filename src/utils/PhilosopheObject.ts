@@ -61,7 +61,7 @@ export class PhilosopheObject {
       console.log(`${this.nom} is eating`);
       this.state = "mange"
       this.pauseTimer()
-      await new Promise(resolve => setTimeout(resolve, 30000)); // philosopher eats for 10 seconds
+      await new Promise(resolve => setTimeout(resolve, 20000)); // philosopher eats for 10 seconds
       console.log(`${this.nom} is putting down forks`);
       await Promise.all([this.fourchetteGauche.release(), this.fourchetteDroite.release()]);
     }
